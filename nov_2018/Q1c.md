@@ -16,5 +16,5 @@ A factory monitoring system may store information about current and past reading
 - A **temporal join** is a join, with the time of a tuple in the result being the intersection of the times of the tuples from which it
 is derived. If the times do not intersect, the tuple is removed from the result.
 - The predicates precedes, overlaps, and contains can be applied on intervals.
-#### Example
+#### Example temporal relation - instructor (includes valiation time with attributes from and to)
 ![Example](images/temporal_relation.jpg)
